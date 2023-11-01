@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  font-family: "Inter";
+}
+
+header {
+  margin-left: 70px;
+  margin-top: 7px;
+}
+
+section {
+  display: grid;
+  grid-auto-flow: column;
+  margin-left: 70px;
+  text-align: center;
+  padding: 20px;
+}
+
+#div-card {
+  display: grid;
+  grid-auto-flow: column;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+#img-mulher {
+  text-align: center;
+  margin-top: -50px;
+}
+
+h1 {
+  height: 112px;
+  left: 154px;
+  top: 190px;
+
+  color: #003d63;
+  font-size: 36px;
+  font-family: "Inter";
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+p {
+  color: #003d63;
+  font-size: 36px;
+  font-family: "Inter";
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.icon {
+  margin-top: 200px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #003d63;
+  color: #f8f8f8;
+  border: none;
+  border-radius: 15px;
+  width: 316px;
+  height: 78px;
+  font-size: 30px;
+  margin-right: 75px;
+  margin-top: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #265e7e;
+}
